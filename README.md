@@ -14,6 +14,7 @@ Primero iniciar el servidor:
 ```python
 python Cloud_server.py
 ```
+Nota:el servidor es hosteado de manera local en host='0.0.0.0', port = 5003
 
 Luego correr el cliente en simultaneo en una terminal diferente:
 ```python
