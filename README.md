@@ -21,11 +21,16 @@ Luego correr el cliente en simultaneo en una terminal diferente:
 python PC.py
 ```
 
+### Diagrama esquemático:
+
+![comunicacíon](https://user-images.githubusercontent.com/21143405/144876666-8fa1cf70-22ff-4f36-91fb-60b0eee099b0.jpg) 
+
+
 ### TO-DO LIST:
 
 - [x] Primera implementacion con cantidad de procesos fija
 - [x] POST cpu temperature method
 - [ ] Agregar Proxy
-- [ ] Hacer que sea dinamico para multiples procesos
-- [ ] Diagrama en bloques
-- [ ] Proponga un diagrama de bloques y un diagrama de secuencia del funcionamiento del proceso.
+- [x] Hacer que sea dinamico para multiples procesos
+- [x] Diagrama en bloques
+- [x] Proponga un diagrama de bloques y un diagrama de secuencia del funcionamiento del proceso.
