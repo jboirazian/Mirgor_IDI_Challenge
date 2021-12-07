@@ -36,7 +36,6 @@ De ocurrir esto se podría :
 1) Guardar los datos en un archivo y enviarlos cuando la conexion se restablezca (haciendo pings al servidor luego de una determinada cantidad de tiempo para ver si el codigo de estado de la request cambia)
 2) Enviar los datos a un servidor local y que este se encargue de enviarlos cuando la conexion se restablezca.
 
-la opción
 
 * ¿Qué problemas encuentra en la arquitectura propuesta para el sistema? Proponga soluciones a los mismos y consecuencias de dichos cambios.
 
