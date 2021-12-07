@@ -30,7 +30,9 @@ python PC.py
 
 - [x] Primera implementacion con cantidad de procesos fija
 - [x] POST cpu temperature method
-- [ ] Agregar Proxy
+- [x] Agregar Proxy
 - [x] Hacer que sea dinamico para multiples procesos
 - [x] Diagrama en bloques
 - [x] Proponga un diagrama de bloques y un diagrama de secuencia del funcionamiento del proceso.
+- [ ] Agregar conexion TCP entre los distintos procesos
+- [ ] Hostear en Heroku a si tengo Cloud_server.py tiempo 
