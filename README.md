@@ -12,7 +12,7 @@ Desarollado en 2 .py , Cloud_server.py y PC.py
 
 Primero instalar los modulos con pip:
 ```python
-pip install -r requirements.txt
+pip install -r requierements.txt
 ```
 
 Luego iniciar el servidor:
