@@ -1,7 +1,5 @@
 # importamos las librerías que vamos a usar
 from flask import  Flask, request, jsonify
-import pandas as pd
-import numpy as np
 import json
 
 CPU_MAX_TEMP=35 #### TEMPERATURA EN `C ,EN LA CUAL EL SERVIDOR CLOUD ENVIA UNA RESPUESTA SI LA TEMPERATURA ENVIADA ES MAYOR
