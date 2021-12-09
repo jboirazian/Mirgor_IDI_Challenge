@@ -50,6 +50,7 @@ De ocurrir esto se podría :
 
 
 #### -> Respuesta: 
+En la arquitectura propuesta en ningun momentó se tiene en cuenta la prioridad de los procesos.Esto puede llegar a ser un problema en el caso de que uno o mas procesos importantes para nuestro proyecto debena informar de algun suceso importante.
 
 * ¿Qué cambios considera serían necesarios para adaptar la solución propuesta funcionando en una PC para que funcione en una computadora embebida (RaspberryPi, BeagleBone, etc...)
 
