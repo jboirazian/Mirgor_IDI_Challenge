@@ -1,8 +1,10 @@
 # Mirgor_IDI_Challenge
 Desafío técnico 2021
 
+![9-12-2021 14 12 22 1](https://user-images.githubusercontent.com/21143405/145446922-bd87708b-7118-45fd-b72a-e06a6d09cf7b.jpg)
 
-Desarollado en 2 .py , **Cloud_server.py** y **PC.py**
+
+#### Desarollado en 2 .py , **Cloud_server.py** y **PC.py**
 
 
 
