@@ -36,7 +36,7 @@ python PC.py
 
 * En caso de que el sistema no tenga conectividad hacia el exterior, ¿Qué estrategia utilizaría para evitar pérdida de datos críticos? Proponga herramientas y/o estrategias que se podrían utilizar para dicho fin.
 
-Respuesta: 
+#### -> Respuesta:
 
 A la hora de enviar los datos al servidor cloud verficar de manera provisoria la conexion. Si hacemos una request al servidor y este devuelve un codigo de estado del tipo 50X (500,502,503,504) significa que existe algun error del lado de la conectividad con el Cloud.
 De ocurrir esto se podría :
@@ -48,18 +48,22 @@ De ocurrir esto se podría :
 
 * ¿Qué problemas encuentra en la arquitectura propuesta para el sistema? Proponga soluciones a los mismos y consecuencias de dichos cambios.
 
+
+#### -> Respuesta: 
+
 * ¿Qué cambios considera serían necesarios para adaptar la solución propuesta funcionando en una PC para que funcione en una computadora embebida (RaspberryPi, BeagleBone, etc...)
 
 
-Respuesta:
-
-Considero que será necesario evaluar los recursos disponibles en la computadora embebida , ya que al disponer de un procesador ARM ( single , dual o quad core dependiendo de los casos). La adaptabilidad de solucíon propuesta dependerá de la cantidad de procesos que tenga nuestro proyecto.
+#### -> Respuesta:
+Encuentro que requiere de muchos recursos.Considero que será necesario evaluar los recursos disponibles en la computadora embebida , ya que al disponer de un procesador ARM ( single , dual o quad core dependiendo de los casos). La adaptabilidad de solucíon propuesta dependerá de la cantidad de procesos que tenga nuestro proyecto.
 
 De tener una cantidad considerable podriamos:
 
 * Disminuir la carga en nuestro CPU agrupando multiples procesos en uno solo. Haciendo que sus tareas ocurran de manera secuencial y no de manera paralela ( para esto debemos evaluar la importancia de cada uno de los procesos de manera indiviual). De esta manera ahorraremos recursos en el CPU , pero perderemos velocidad en la resolucíon de procesos.
 
 * Reemplazar la metodología de comunicacíon de Sockets/TCP entre procesos por una comunicacíon utilizando archivos , donde por ejemplo: un proceso *A* escribe un archivo y luego uno o varios procesos leén dicho archivo. De esta manera no hace falta esta que cada procesos este ¨escuchando¨ un puerto de manera constante esperando los datos , ahorrando recursos en el procesador.
+
+* Al estar contenido en una computadora embebida , probablemente todos los procesos se originen de un mismo .py , por lo que podría obviar usar Sockets para comunicarme entre procesos y utilizar una cola/queue para comunicarme entre los distintos procesos.
 
 
 
