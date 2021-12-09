@@ -7,7 +7,7 @@ import multiprocessing
 from multiprocessing.connection import Listener,Client
 import json
 import sys
-from pyspectator import Cpu
+from pyspectator.processor import Cpu
 url = 'http://localhost:5003/api_cloud'
 cpu = Cpu(monitoring_latency=1)
 N_PROCESOS=5 #### Cantidad de procesos

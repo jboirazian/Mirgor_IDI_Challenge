@@ -1,0 +1,6 @@
+Flask==1.1.2
+Flask-Compress==1.10.1
+Flask-Cors==3.0.8
+pyspectator==1.2.2
+requests==2.23.0
+requests-html==0.10.0
