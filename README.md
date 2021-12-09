@@ -9,14 +9,20 @@ Desarollado en 2 .py , Cloud_server.py y PC.py
 
 
 ## Como correrlo:
-Primero iniciar el servidor:
+
+Primero instalar los modulos con pip:
+```python
+pip install -r requirements.txt
+```
+
+Luego iniciar el servidor:
 
 ```python
 python Cloud_server.py
 ```
 Nota:el servidor es hosteado de manera local en host='0.0.0.0', port = 5003
 
-Luego correr el cliente en simultaneo en una terminal diferente:
+Despues correr el cliente en simultaneo en una terminal diferente:
 ```python
 python PC.py
 ```
